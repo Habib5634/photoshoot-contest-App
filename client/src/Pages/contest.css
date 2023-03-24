@@ -1,0 +1,49 @@
+/* Arrow buttons */
+.slick-arrow {
+    background: transparent;
+    border: none;
+    color: #666666;
+    cursor: pointer;
+    font-size: 24px;
+    height: 40px;
+    outline: none;
+    position: absolute;
+    top: calc(50% - 20px);
+    width: 40px;
+    z-index: 1;
+}
+
+.slick-prev {
+    left: 20px;
+}
+
+.slick-next {
+    right: 20px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    font-family: 'FontAwesome';
+    font-size: 24px;
+}
+
+.slick-prev:before {
+    content: '\f104';
+}
+
+.slick-next:before {
+    content: '\f105';
+}
+
+/* code for table border */
+table {
+    border-collapse: collapse;
+
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
